@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task_1_3_1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task_1_3_1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task_1_3_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.1610487">
+            <state vertical-scroll-proportion="5.375">
               <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_1_1_1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../task_1_1_1/task_1_1_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5505618">
+              <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -45,6 +55,7 @@
       <list>
         <option value="$PROJECT_DIR$/task_1_3_1.html" />
         <option value="$PROJECT_DIR$/../task_1_1_1.html" />
+        <option value="$PROJECT_DIR$/../task_1_1_1/task_1_1_1.html" />
       </list>
     </option>
   </component>
@@ -197,18 +208,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../task_1_1_1.html">
+    <entry file="file://$PROJECT_DIR$/task_1_3_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8951311">
-          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+        <state vertical-scroll-proportion="5.375">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_1_3_1.html">
+    <entry file="file://$PROJECT_DIR$/../task_1_1_1/task_1_1_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1610487">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5505618">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
           <folding />
         </state>
       </provider>
