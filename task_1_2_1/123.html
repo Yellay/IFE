@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>左栏固定宽度，右栏自适应之负margin法</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        #container{
+            margin-left: 230px;
+            _zoom: 1;
+            /*兼容IE6下左栏消失问题*/
+        }
+        #nav{
+            float: left;
+            width: 230px;
+            height: 600px;
+            background: #ccc;
+            margin-left: -230px;
+            position: relative;
+            /*兼容IE6下左栏消失问题，IE6真不让人省心啊>_<*/
+        }
+        #main{
+            height: 600px;
+            background: #0099ff;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="nav">
+
+    </div>
+    <div id="main">
+
+    </div>
+</div>
+</body>
+</html>
