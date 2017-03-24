@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>task_1_6_1</title>
+    <style>
+        body{
+            background-color: #5e5e5e;
+        }
+        #yemian{
+            width: 980px;
+            height: 1386px;
+            margin: 0 auto;
+            background-color: white;;
+        }
+        #first,#second{
+            margin: 0 auto;
+            width: 892px;
+            height: auto;
+        }
+        #second{
+            margin-top: 20px;
+
+        }
+        #third{
+            width: 641px;
+            overflow: auto;
+            margin-left: 44px;
+            padding-top: 30px;
+            position: relative;
+        }
+        #head{
+            width: 110px;
+            height: 61px;
+            background-color: red;
+            float: left;
+        }
+        #web{
+            padding-top: 43px;
+            padding-left: 2px;
+        }
+        .ife,.tim{
+            font-family: "Arial Black",serif;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+        .tim{
+            color: #d45d5c;
+        }
+        #time{
+            float: right;
+            padding-top: 43px;
+        }
+        .devide,.devide1,.devide2{
+            width: 892px;
+            height: 2px;
+            background-color: #938e8c;
+            overflow: auto;
+        }
+        .devide1{
+            width: 203px;
+            background-color: #cc8091;
+        }
+        .devide2{
+            width: 415px;
+            height: 2px;
+            margin-top: 13px;
+        }
+        #tupian{
+            width: 641px;
+            height: 301px;
+            background: url("屏幕快照%202017-03-22%2017.31.09.png");
+            float: left;
+        }
+
+        .left,.right{
+            width: 191px;
+            height: 301px;
+            background-color: rgba(109, 202, 175, 0.35);
+            float: left;
+        }
+        .right{
+            float: right;
+            background-color: rgba(202, 125, 124, 0.35);
+        }
+        #celan{
+            float: right;
+            height: 301px;
+        }
+        .num1{
+            font-family: "Microsoft YaHei",serif;
+            font-size: 24px;
+            color: #000000;
+            text-decoration: underline;
+            line-height: 40px;
+        }
+        .num2{
+            font-size: 12px;
+            color: #676767;
+            font-family: "楷体",serif;
+            line-height: 10px;
+            margin-top: -30px;
+        }
+        .num3{
+            font-family: "Microsoft YaHei",serif;
+            font-size: 116px;
+            color: #75b86b;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        .logo1,.logo2,.logo3{
+            font-size: 55px;
+            color: #cc8091;
+            font-family: "Microsoft YaHei", serif;
+        }
+        .logo2{
+            font-size: 21px;
+        }
+        .logo3{
+            font-size: 12px;
+            margin-top: -10px;
+        }
+        .what{
+            width: 230px;
+            float: left;
+        }
+        .ws{
+            font-family: "Microsoft YaHei", serif;
+            font-size: 16px;
+            color: #418c59;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .qianduan1,.qianduan2{
+            font-size: 12px;
+            color: #767777;
+            font-family: "宋体",serif;
+            line-height: 16px;
+        }
+        .how{
+            width: 180px;
+            float: right;
+        }
+        .hs{
+            font-size: 16px;
+            color: #cc7680;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .qianduan2{
+            line-height: 20px;
+        }
+        .wh{
+            font-size: 12px;
+            color: #cd4a48;
+            font-family: "Microsoft YaHei", serif;
+            font-style: italic;
+            opacity: 0.7;
+        }
+        .when{
+            width: 200px;
+            position: absolute;
+            left: 245px;
+
+        }
+        .we{
+            font-size: 16px;
+            color: #d2994f;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .qianduan3{
+            font-size: 12px;
+            color: #231815;
+            font-family: "Microsoft YaHei", serif;
+            line-height: 16px;
+            opacity: 0.7;
+        }
+        #fourth{
+            width: 894px;
+            margin: 0 auto;
+            margin-top: 50px;
+            height: 700px;
+        }
+        #fin1{
+            width: 415px;
+            height: auto;
+            float: left;
+        }
+        #fin2{
+            width: 458px;
+
+            float: right;
+
+        }
+        .tit{
+            width: 415px;
+            padding-top: 0px;
+        }
+        .the{
+            font-size: 38px;
+            color: #11456b;
+            font-family: "黑体", serif;
+            font-weight: bold;
+            line-height: 110%;
+            height: 47px;
+        }
+        .the1{
+            font-family: "黑体",serif;
+            font-size: 72px;
+            color: #f5e327;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .zw{
+            font-family: "Times New Roman",serif;
+            color: #11456b;
+            font-size: 33px;
+            font-weight: bold;
+        }
+
+        .par{
+            font-size: 12px;
+            color: #767777;
+            font-family: "宋体", serif;
+            line-height: 150%;
+            margin-top: 20px;
+        }
+        .bot1 span{
+            font-size: 70px;
+            color: #f5e327;
+            font-family: "Microsoft YaHei", serif;
+            width: 72px;
+            height: 72px;
+            float: left;
+            text-align: center;
+            line-height: 72px;
+        }
+        .top2{
+            position: relative;
+        }
+        .tupian{
+            width: 100px;
+            height: 200px;
+            float: right;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+        .last1{
+            margin-top: 30px;
+
+        }
+        .last2{
+            width: 458px;
+            height: 61px;
+            z-index: 2;
+            background-color: rgba(15, 9, 13, 0.24);
+            position: absolute;
+            bottom: 0;
+        }
+        .fenge{
+            width: 3px;
+            height: 44px;
+            background-color: #72b16a;
+            float: left;
+            margin-left: 60px;
+            border: 1px rgba(15, 9, 13, 0.24);
+        }
+        .w1{
+            font-family: "Microsoft YaHei", serif;
+            font-size: 26px;
+            color: #ffffff;
+        }
+        .w2{
+            font-family: "Microsoft YaHei", serif;
+            font-size: 12px;
+            color: #72b16a;
+            font-style: italic;
+        }
+        .bot2{
+            width: 459px;
+            height: 318px;
+            background-color: rgba(153, 159, 96, 0.41);
+            margin-top: 20px;
+            padding-top: 15px;
+        }
+
+        .lie{
+            line-height: 30px;
+        }
+        .liebiao{
+            font-size: 16px;
+            color: #5a5b5b;
+            font-family: "宋体", serif;
+            text-align: left;
+        }
+        .liebiao1{
+            font-size: 12px;
+            color: #5a5b5b;
+            font-family: "宋体", serif;
+            font-style: italic;
+            text-align: right;
+        }
+        .bb{
+            margin-top: 30px;
+            width: 459px;
+            position: relative;
+        }
+        .whole{
+            padding-top: 25px;
+        }
+        .a1{
+            width: 260px;
+            height: 160px;
+            background-color: red;
+            margin-top: 46px;
+        }
+        .m1{
+            float: left;
+            padding-top: 5px;
+        }
+        .m2{
+            float: right;
+            margin-right: 8px;
+        }
+        .m3{
+           width: 2px;
+            height: 86px;
+            background-color: #FFFFFF;
+            margin-left: 62px;
+            margin-top: 12px;
+        }
+        .a2{
+            width: 250px;
+            position: absolute;
+            left: 230px;
+            top: 0;
+        }
+        .tyu{
+            font-size: 17px;
+            color: #5a5b5b;
+            font-family: "黑体", serif;
+            font-style: italic;
+            line-height: 16px;
+            text-indent: 38px;
+        }
+        blockquote:before{
+            font-size: 72px;
+            color: #d45d5c;
+            content: open-quote;
+            font-family: "黑体", serif;
+            position: absolute;
+            left: 0;
+            top: 30px;
+
+        }
+        blockquote:after{
+            font-size: 72px;
+            color: #d45d5c;
+            content: close-quote;
+            font-family: "黑体", serif;
+            position: absolute;
+            bottom: -15px;
+            right: 60px;
+        }
+        #fifth{
+            width: 892px;
+            height: 1px;
+            background-color: #938e8c;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="yemian">
+    <div id="first">
+        <div id="head">
+            <div id="web"><label class="ife">ife.baidu.com</label></div>
+        </div>
+        <div id="time"><label class="tim">2016.03</label></div>
+        <div class="devide"></div>
+    </div>
+
+    <div id="second">
+        <div id="tupian">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div id="celan">
+            <div class="devide1"></div>
+            <div class="big">
+                <p class="num1"><span>A</span>BOUT<br>
+                    <span>T</span>ECHNOLOGE</p>
+                <p class="num2">
+                    About technologe about technologe<br>
+                    about technologe
+                </p>
+                <label class="num3">700</label>
+            </div>
+            <div id="small" style="position: relative">
+                <div class="left1" style="position: absolute;left: 30px;top: 8px">
+                    <label class="logo1">3.2</label>
+                </div>
+                <div class="right2" style="position: absolute;right: 30px;top: 0px">
+                    <p>
+                        <label class="logo2">css</label><br>
+                        <label class="logo3">cssssccsccscssc</label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="third">
+        <div class="what">
+            <label class="ws">What</label>
+            <p class="qianduan1">
+                前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+            </p>
+        </div>
+        <div class="how">
+            <label class="hs">How</label>
+            <p class="qianduan2">
+                前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+                <br>
+            </p>
+            <p style="line-height: 16px;color: #767777;font-size: 12px;">
+                What---------<span class="wh">40%</span><br>
+                What---------<span class="wh">30%</span><br>
+                What---------<span class="wh">30%</span>
+            </p>
+        </div>
+        <div class="when">
+            <label class="we">When</label>
+            <p class="qianduan3">
+                前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+            </p>
+        </div>
+    </div>
+
+    <div id="fourth">
+        <div id="fin1">
+            <div class="top1">
+                <div class="tit">
+                    <p class="the">
+                        <span class="the1">THE</span>&nbsp;TECHNOLOGE<br>
+                         OF&nbsp;FRONT
+                    </p><br>
+                    <label class="zw">前端技术领域</label>
+                </div>
+                <div class="devide2"></div>
+            </div>
+            <div class="bot1">
+
+                    <span>前</span><p class="par">端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端<br>
+                    <img src="屏幕快照%202017-03-22%2017.31.09.png" class="tupian">
+                    前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端<br>
+                    前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前
+                </p>
+            </div>
+        </div>
+        <div id="fin2">
+            <div class="top2">
+                <div class="last1">
+                    <img src="屏幕快照%202017-03-22%2017.31.09.png" style="width: 458px;height: 275px;z-index: 1">
+                </div>
+                <div class="last2">
+                    <hr class="fenge"/><p style="letter-spacing: 3px"><span class="w1"> 前端技术</span><span class="w2">前端技术前端技术</span></p>
+                </div>
+            </div>
+            <div class="bot2">
+                <div class="dao">
+                    <ul style="list-style: square;color: #003f54" class="lie">
+                        <li><span class="liebiao">前端前端前端前端前端前端..................................................</span><span class="liebiao1">前端</span></li>
+                        <li><span class="liebiao">前端前端前端前端.................................................................</span><span class="liebiao1">前端前</span></li>
+                        <li><span class="liebiao">前端前端前端前端前端前端前端........................................</span><span class="liebiao1">前端</span></li>
+                    </ul>
+                </div>
+                <div class="bb">
+                    <div class="a1">
+                        <div class="whole" >
+                            <div class="m1"><label style="font-size: 110px;color: #FFFFFF;font-family: "Microsoft YaHei", serif">0</label></div>
+                            <div class="m2">
+                                <p style="color: #FFFFFF;font-family:serif "黑体", serif;float:right">
+                      <span style="font-size: 21px;font-style: italic;line-height: 24px">
+                          ONE TWO<br>
+                          THREE FOUR FIVE<br>
+                      </span>
+                      <span style="font-size: 12px;line-height: 6px">
+                          hello world hello word<br>
+                          hello world
+                      </span>
+                                </p>
+                            </div>
+                            <div class="m3"></div>
+                        </div>
+                    </div>
+                    <div class="a2">
+                        <div class="whole1">
+                            <blockquote class="tyu">
+                                world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+     </div>
+    <div id="fifth">
+
+    </div>
+    </div>
+</body>
+</html>
+
